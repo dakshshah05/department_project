@@ -1,0 +1,28 @@
+{
+    "timezone": "Asia/Kolkata",
+    "notifications": {
+      "email": {
+        "enabled": false,
+        "smtp_host": "smtp.gmail.com",
+        "smtp_port": 587,
+        "username": "department@example.com",
+        "password": "your_app_password",
+        "from_email": "Department Portal <department@example.com>"
+      },
+      "telegram": {
+        "enabled": false,
+        "bot_token": "123456789:ABCDEFGHIJKLMNOP",
+        "chat_id": "-100123456789"
+      }
+    },
+    "share_links": {
+      "default_expiry_hours": 48,
+      "secret_key": "change-this-to-random-string"
+    },
+    "thumbnails": {
+      "enabled": true,
+      "max_size": [200, 200],
+      "quality": 85
+    }
+  }
+  

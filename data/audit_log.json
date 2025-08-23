@@ -1,0 +1,71 @@
+[
+  {
+    "id": "ae42f635-e030-4560-ac8d-9851c4eda79f",
+    "timestamp": "2025-08-23T21:26:33.974958",
+    "actor": "syeda.shariya@bcah.christuniversity.in",
+    "action": "SEARCH",
+    "entity_type": "FREE_ROOMS",
+    "entity_id": "2025-08-29|10-11AM",
+    "details": {
+      "slots_count": 1
+    }
+  },
+  {
+    "id": "d2947331-0d6c-4111-bdf9-8bbf2eeb0628",
+    "timestamp": "2025-08-23T21:27:14.811285",
+    "actor": "syeda.shariya@bcah.christuniversity.in",
+    "action": "CREATE",
+    "entity_type": "ALBUM",
+    "entity_id": "f9aad043-cfc7-46ae-9bd0-a3be6ce5f5c4",
+    "details": {
+      "name": "Daksh"
+    }
+  },
+  {
+    "id": "e8af53c9-5ff0-4770-97ed-801d362ba151",
+    "timestamp": "2025-08-23T21:27:21.207637",
+    "actor": "syeda.shariya@bcah.christuniversity.in",
+    "action": "CREATE",
+    "entity_type": "ALBUM",
+    "entity_id": "cc9d8066-165f-4daa-bfaa-b82609aa0d4d",
+    "details": {
+      "name": "Daksh"
+    }
+  },
+  {
+    "id": "32ade96a-c9fa-4a6e-a846-c189ecfeebe3",
+    "timestamp": "2025-08-23T21:27:23.719853",
+    "actor": "syeda.shariya@bcah.christuniversity.in",
+    "action": "CREATE",
+    "entity_type": "ALBUM",
+    "entity_id": "3ebca19c-1bf0-42d2-979c-1ed168a01c97",
+    "details": {
+      "name": "Daksh"
+    }
+  },
+  {
+    "id": "f1e583c5-b5e0-410b-a40d-1d1358fa2ce1",
+    "timestamp": "2025-08-23T21:27:25.522825",
+    "actor": "syeda.shariya@bcah.christuniversity.in",
+    "action": "CREATE",
+    "entity_type": "ALBUM",
+    "entity_id": "9c21aae8-bff1-4444-9169-0f1bd53fcb3e",
+    "details": {
+      "name": "Daksh"
+    }
+  },
+  {
+    "id": "2875390e-2989-4d35-9d1e-f7a3ae3287fb",
+    "timestamp": "2025-08-23T21:28:58.517350",
+    "actor": "syeda.shariya@bcah.christuniversity.in",
+    "action": "BOOK",
+    "entity_type": "ROOM_BOOKING",
+    "entity_id": "Room1|Monday|9-10AM",
+    "details": {
+      "title": "E-Cell",
+      "purpose": "Meeting",
+      "attendees": 20,
+      "notify": true
+    }
+  }
+]

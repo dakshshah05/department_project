@@ -1,12 +1,1112 @@
 {
   "Room1": {
-    "9-10AM": true,
-    "10-11AM": true,
-    "11-12PM": true
+    "Monday": {
+      "9-10AM": true,
+      "10-11AM": false,
+      "11-12PM": true,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": true,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": true
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": true,
+      "11-12PM": false,
+      "1-2PM": true,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": true,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": true,
+      "10-11AM": false,
+      "11-12PM": true,
+      "1-2PM": false,
+      "2-3PM": false
+    }
   },
   "Room2": {
-    "9-10AM": true,
-    "10-11AM": true,
-    "11-12PM": true
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": true,
+      "11-12PM": false,
+      "1-2PM": true,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": true,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": true,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": true
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": true,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": true
+    }
+  },
+  "Room3": {
+    "Monday": {
+      "9-10AM": true,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": true
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": true,
+      "11-12PM": false,
+      "1-2PM": true,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": true,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": true,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": true,
+      "2-3PM": false
+    }
+  },
+  "Room4": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room5": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room6": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room7": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room8": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room9": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room10": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room11": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room12": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room13": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room14": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room15": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room16": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room17": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room18": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room19": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room20": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room21": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room22": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room23": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room24": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room25": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room26": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room27": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room28": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room29": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
+  },
+  "Room30": {
+    "Monday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Tuesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Wednesday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Thursday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    },
+    "Friday": {
+      "9-10AM": false,
+      "10-11AM": false,
+      "11-12PM": false,
+      "1-2PM": false,
+      "2-3PM": false
+    }
   }
 }

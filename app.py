@@ -1,46 +1,48 @@
-# This is the main file - run this with: streamlit run app.py
+# Main entry point with enhanced navigation
 import streamlit as st
 from auth.authentication import login_view, do_logout
-from features import rooms, faculty, media
+from features import rooms, faculty, media, finder
 
-st.set_page_config(page_title="Department Portal", layout="centered")
+st.set_page_config(page_title="Department Portal", layout="wide")
 
-# Initialize session state - DO NOT MODIFY
+# Initialize session state
 if "user" not in st.session_state:
     st.session_state.user = None
 
 def show_app():
-    # Sidebar - user info and navigation
     st.sidebar.write(f"**Logged in as:** {st.session_state.user['email']}")
     st.sidebar.write(f"**Role:** {st.session_state.user['role']}")
     
-    # Logout button
     if st.sidebar.button("🚪 Logout"):
         do_logout()
         st.stop()
 
-    # Main navigation menu
     st.sidebar.markdown("---")
     choice = st.sidebar.radio(
         "**📋 Select Feature:**",
-        ["🏠 Room Booking", "👨‍🏫 Faculty Availability", "📸 Department Media"],
+        [
+            "🏠 Room Booking", 
+            "👨‍🏫 Faculty Availability", 
+            "🔍 Free Room Finder",
+            "📸 Media Center"
+        ],
         index=0
     )
 
-    # Route to appropriate feature
     if choice == "🏠 Room Booking":
         rooms.main(st.session_state.user)
     elif choice == "👨‍🏫 Faculty Availability":
         faculty.main()
-    elif choice == "📸 Department Media":
+    elif choice == "🔍 Free Room Finder":
+        finder.main(st.session_state.user)
+    elif choice == "📸 Media Center":
         media.main(st.session_state.user)
 
 def main():
-    # Main app logic - shows login or app based on session state
     if st.session_state.user is None:
-        login_view()  # Show login page
+        login_view()
     else:
-        show_app()    # Show main application
+        show_app()
 
 if __name__ == "__main__":
     main()
