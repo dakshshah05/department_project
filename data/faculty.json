@@ -1,0 +1,4 @@
+{
+  "Dr. Gayathry": { "9-10AM": true, "10-11AM": false, "11-12PM": false },
+  "Dr. Uma": { "9-10AM": false, "10-11AM": true, "11-12PM": false }
+}

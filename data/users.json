@@ -1,0 +1,4 @@
+[
+  { "email": "daksh.kumar@bcah.christuniversity.in", "password": "daksh123", "role": "student" },
+  { "email": "syeda.shariya@bcah.christuniversity.in", "password": "shariya123", "role": "teacher" }
+]

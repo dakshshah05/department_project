@@ -1,0 +1,12 @@
+{
+  "Room1": {
+    "9-10AM": true,
+    "10-11AM": true,
+    "11-12PM": true
+  },
+  "Room2": {
+    "9-10AM": true,
+    "10-11AM": true,
+    "11-12PM": true
+  }
+}
