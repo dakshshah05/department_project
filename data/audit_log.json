@@ -92,5 +92,16 @@
     "details": {
       "slots_count": 1
     }
+  },
+  {
+    "id": "1c849af5-ac0a-4b56-9f13-678998c5cb21",
+    "timestamp": "2025-08-24T22:03:47.433018",
+    "actor": "harsh.behal@bcah.christuniversity.in",
+    "action": "SEARCH",
+    "entity_type": "FREE_ROOMS",
+    "entity_id": "2025-08-25|10-11AM",
+    "details": {
+      "slots_count": 1
+    }
   }
 ]

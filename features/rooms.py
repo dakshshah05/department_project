@@ -584,9 +584,9 @@ def main(user: dict):
     else:
         st.info("👁️ **Student Access:** View-only mode")
 
-    # Enhanced booking history with search
+    # Enhanced booking history with search - FIXED: Pass data parameter
     with st.expander(f"📊 **Enhanced Booking History:** {room} - {day_name}", expanded=False):
-        show_enhanced_booking_history(room, day_name, user)
+        show_enhanced_booking_history(room, day_name, user, data)  # ✅ Fixed: Added data parameter
 
     # Quick date navigation
     st.markdown("---")
@@ -664,7 +664,7 @@ def book_slot_logic(data, room, day_name, slot_to_book, user, booking_title, boo
         st.error("❌ Slot was just booked by someone else. Please refresh.")
         st.rerun()
 
-def show_enhanced_booking_history(room, day_name, user):
+def show_enhanced_booking_history(room, day_name, user, rooms_data):  # ✅ Fixed: Added rooms_data parameter
     """Show enhanced booking history with search and filters"""
     st.write("**Recent booking activity for this room and day:**")
     
@@ -675,11 +675,12 @@ def show_enhanced_booking_history(room, day_name, user):
     with col2:
         action_filter = st.selectbox("📋 Filter by action:", ["All", "BOOK", "CANCEL", "AUTO_EXPIRE"])
     
-    # Get history for all slots of this room/day
+    # Get history for all slots of this room/day - FIXED: Use rooms_data parameter
     all_history = []
-    for slot in data[room][day_name].keys():
-        slot_history = get_booking_history(room, day_name, slot)
-        all_history.extend(slot_history)
+    if room in rooms_data and day_name in rooms_data[room]:  # ✅ Fixed: Use rooms_data instead of data
+        for slot in rooms_data[room][day_name].keys():  # ✅ Fixed: Use rooms_data instead of data
+            slot_history = get_booking_history(room, day_name, slot)
+            all_history.extend(slot_history)
     
     # Apply filters
     if search_user:

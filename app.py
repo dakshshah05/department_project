@@ -1,9 +1,9 @@
-# Main entry point with default Streamlit theme and Christ University logo
+# Main entry point without analytics dashboard
 import streamlit as st
 import base64
 from pathlib import Path
 from auth.authentication import login_view, do_logout
-from features import rooms, faculty, media, finder, analytics, admin, notifications
+from features import rooms, faculty, media, finder, admin, notifications
 
 st.set_page_config(page_title="Christ University - Department Portal", layout="centered")
 
@@ -29,10 +29,9 @@ def add_christ_logo_and_styling():
             height: 60px;
             width: auto;
             z-index: 9999;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }}
-    
         
         /* Layout Adjustments */
         .main .block-container {{
@@ -66,7 +65,7 @@ if "user" not in st.session_state:
     st.session_state.user = None
 
 def show_app():
-    """Main application interface without theme toggle"""
+    """Main application interface without analytics"""
     st.sidebar.write(f"**Logged in as:** {st.session_state.user['email']}")
     st.sidebar.write(f"**Role:** {st.session_state.user['role']}")
     
@@ -76,13 +75,12 @@ def show_app():
 
     st.sidebar.markdown("---")
     
-    # Navigation menu
+    # Simplified navigation menu (NO ANALYTICS)
     base_options = [
         "🏠 Room Booking", 
         "👨‍🏫 Faculty Availability", 
         "🔍 Free Room Finder",
         "📸 Media Center",
-        "📊 Analytics Dashboard",
         "🔔 Notifications"
     ]
     
@@ -92,7 +90,7 @@ def show_app():
     
     choice = st.sidebar.radio("**📋 Select Feature:**", base_options, index=0)
 
-    # Route to selected feature
+    # Route to selected feature (NO ANALYTICS ROUTING)
     if choice == "🏠 Room Booking":
         rooms.main(st.session_state.user)
     elif choice == "👨‍🏫 Faculty Availability":
@@ -101,8 +99,6 @@ def show_app():
         finder.main(st.session_state.user)
     elif choice == "📸 Media Center":
         media.main(st.session_state.user)
-    elif choice == "📊 Analytics Dashboard":
-        analytics.main(st.session_state.user)
     elif choice == "🔔 Notifications":
         notifications.main(st.session_state.user)
     elif choice == "⚙️ Admin Panel":
