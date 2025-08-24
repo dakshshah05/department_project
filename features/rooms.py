@@ -89,7 +89,7 @@ def _reset_expired_bookings(rooms_data, current_datetime):
 
 def main(user: dict):
     """Main room booking interface with audit trail"""
-    st.header("🏠 Room Booking System (Enhanced)")
+    st.header("🏠 Room Booking System")
     st.markdown("---")
 
     # Load room data

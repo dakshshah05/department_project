@@ -11,7 +11,7 @@ def login_view():
     """
     st.title("🏛️ Department Portal Login")
     st.markdown("---")
-    st.info("**Demo Credentials:**\n- daksh.kumar@bcah.christuniversity.in / daksh123 (Student)\n- syeda.shariya@bcah.christuniversity.in / shariya123 (Teacher)")
+    st.info("**Demo Credentials:**\n- daksh.kumar@bcah.christuniversity.in / daksh123 (teacher)\n- syeda.shariya@bcah.christuniversity.in / shariya123 (Teacher)")
 
     with st.form("login_form"):
         email = st.text_input(
