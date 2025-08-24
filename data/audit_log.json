@@ -60,7 +60,7 @@
     "actor": "syeda.shariya@bcah.christuniversity.in",
     "action": "BOOK",
     "entity_type": "ROOM_BOOKING",
-    "entity_id": "Room1|Monday|9-10AM",
+    "entity_id": "B201|Monday|9-10AM",
     "details": {
       "title": "E-Cell",
       "purpose": "Meeting",
@@ -74,7 +74,7 @@
     "actor": "syeda.shariya@bcah.christuniversity.in",
     "action": "BOOK",
     "entity_type": "ROOM_BOOKING",
-    "entity_id": "Room4|Friday|9-10AM",
+    "entity_id": "B204|Friday|9-10AM",
     "details": {
       "title": "Daksh",
       "purpose": "Meeting",
