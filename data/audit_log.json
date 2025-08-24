@@ -67,5 +67,30 @@
       "attendees": 20,
       "notify": true
     }
+  },
+  {
+    "id": "905e57e2-d2b9-4460-bf1a-9686dc96f12d",
+    "timestamp": "2025-08-23T21:42:09.347706",
+    "actor": "syeda.shariya@bcah.christuniversity.in",
+    "action": "BOOK",
+    "entity_type": "ROOM_BOOKING",
+    "entity_id": "Room4|Friday|9-10AM",
+    "details": {
+      "title": "Daksh",
+      "purpose": "Meeting",
+      "attendees": 20,
+      "notify": true
+    }
+  },
+  {
+    "id": "164b0417-7c61-44a4-afcb-c9f433bc3c87",
+    "timestamp": "2025-08-23T21:42:46.436614",
+    "actor": "syeda.shariya@bcah.christuniversity.in",
+    "action": "SEARCH",
+    "entity_type": "FREE_ROOMS",
+    "entity_id": "2025-08-29|2-3PM",
+    "details": {
+      "slots_count": 1
+    }
   }
 ]

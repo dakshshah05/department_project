@@ -1,33 +1,47 @@
 {
-  "Prof. Sharma": {
+  "Dr. Vinay M": {
     "Monday": { "9-10AM": true, "10-11AM": false, "11-12PM": false, "1-2PM": true, "2-3PM": false },
     "Tuesday": { "9-10AM": false, "10-11AM": true, "11-12PM": false, "1-2PM": false, "2-3PM": true },
     "Wednesday": { "9-10AM": false, "10-11AM": false, "11-12PM": true, "1-2PM": false, "2-3PM": false },
     "Thursday": { "9-10AM": true, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": false },
     "Friday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": true, "2-3PM": false }
   },
-  "Prof. Mehta": {
+  "Dr. Hemanth K": {
     "Monday": { "9-10AM": false, "10-11AM": true, "11-12PM": false, "1-2PM": false, "2-3PM": true },
     "Tuesday": { "9-10AM": true, "10-11AM": false, "11-12PM": false, "1-2PM": true, "2-3PM": false },
     "Wednesday": { "9-10AM": false, "10-11AM": false, "11-12PM": true, "1-2PM": false, "2-3PM": false },
     "Thursday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": false },
     "Friday": { "9-10AM": false, "10-11AM": true, "11-12PM": false, "1-2PM": false, "2-3PM": true }
   },
-  "Prof. Rao": {
+  "Dr. Teena Jose": {
     "Monday": { "9-10AM": false, "10-11AM": false, "11-12PM": true, "1-2PM": false, "2-3PM": false },
     "Tuesday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": true, "2-3PM": false },
     "Wednesday": { "9-10AM": true, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": false },
     "Thursday": { "9-10AM": false, "10-11AM": true, "11-12PM": false, "1-2PM": false, "2-3PM": false },
     "Friday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": true }
   },
-  "Prof. Singh": {
+  "Dr. Gayathry Warrier": {
     "Monday": { "9-10AM": true, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": false },
     "Tuesday": { "9-10AM": false, "10-11AM": false, "11-12PM": true, "1-2PM": false, "2-3PM": false },
     "Wednesday": { "9-10AM": false, "10-11AM": true, "11-12PM": false, "1-2PM": false, "2-3PM": true },
     "Thursday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": true, "2-3PM": false },
     "Friday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": false }
   },
-  "Prof. Gupta": {
+  "Dr. Uma Maheshwari": {
+    "Monday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": true, "2-3PM": false },
+    "Tuesday": { "9-10AM": false, "10-11AM": true, "11-12PM": false, "1-2PM": false, "2-3PM": false },
+    "Wednesday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": true },
+    "Thursday": { "9-10AM": true, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": false },
+    "Friday": { "9-10AM": false, "10-11AM": false, "11-12PM": true, "1-2PM": false, "2-3PM": false }
+  },
+  "Dr. Sindhu V": {
+    "Monday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": true, "2-3PM": false },
+    "Tuesday": { "9-10AM": false, "10-11AM": true, "11-12PM": false, "1-2PM": false, "2-3PM": false },
+    "Wednesday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": true },
+    "Thursday": { "9-10AM": true, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": false },
+    "Friday": { "9-10AM": false, "10-11AM": false, "11-12PM": true, "1-2PM": false, "2-3PM": false }
+  },
+  "Dr. Rajasekaran": {
     "Monday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": true, "2-3PM": false },
     "Tuesday": { "9-10AM": false, "10-11AM": true, "11-12PM": false, "1-2PM": false, "2-3PM": false },
     "Wednesday": { "9-10AM": false, "10-11AM": false, "11-12PM": false, "1-2PM": false, "2-3PM": true },

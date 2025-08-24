@@ -1,4 +1,7 @@
 [
-  { "email": "daksh.kumar@bcah.christuniversity.in", "password": "daksh123", "role": "student" },
-  { "email": "syeda.shariya@bcah.christuniversity.in", "password": "shariya123", "role": "teacher" }
+  { "email": "daksh.kumar@bcah.christuniversity.in", "password": "daksh123", "role": "teacher" },
+  { "email": "syeda.shariya@bcah.christuniversity.in", "password": "shariya123", "role": "teacher" },
+  { "email": "harsh.behal@bcah.christuniversity.in", "password": "harsh123", "role": "student" },
+  { "email": "deevyanshu.sahu@bcah.christuniversity.in", "password": "deevyanshu123", "role": "student" },
+  { "email": "bhavishya.bodwani@bcah.christuniversity.in", "password": "bhavishya123", "role": "student" },
 ]

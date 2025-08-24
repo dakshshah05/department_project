@@ -140,7 +140,7 @@
       "2-3PM": false
     },
     "Friday": {
-      "9-10AM": false,
+      "9-10AM": true,
       "10-11AM": false,
       "11-12PM": false,
       "1-2PM": false,
