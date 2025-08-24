@@ -21,7 +21,10 @@
   },
   "thumbnails": {
     "enabled": true,
-    "max_size": [200, 200],
+    "max_size": [
+      200,
+      200
+    ],
     "quality": 85
   },
   "media_approval": {
@@ -31,5 +34,17 @@
   "saturday_schedule": {
     "working_saturdays": true,
     "exclude_third_saturday": true
+  },
+  "user_preferences": {
+    "harsh.behal@bcah.christuniversity.in": {
+      "email_booking_confirmations": true,
+      "email_reminders": true,
+      "email_cancellations": true,
+      "push_notifications": true,
+      "reminder_times": [
+        "1 hour before",
+        "30 minutes before"
+      ]
+    }
   }
 }

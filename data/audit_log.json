@@ -103,5 +103,92 @@
     "details": {
       "slots_count": 1
     }
+  },
+  {
+    "id": "746caed6-648a-4b23-b95b-744fe2f716a6",
+    "timestamp": "2025-08-24T22:16:51.652610",
+    "actor": "daksh.kumar@bcah.christuniversity.in",
+    "action": "BOOK",
+    "entity_type": "ROOM_BOOKING",
+    "entity_id": "B201|Tuesday|10-11AM",
+    "details": {
+      "title": "Example",
+      "purpose": "Class/Lecture",
+      "attendees": 20,
+      "notify": true
+    }
+  },
+  {
+    "id": "09abc409-e31e-412d-bd0a-c6622c775cb7",
+    "timestamp": "2025-08-24T22:17:53.255987",
+    "actor": "daksh.kumar@bcah.christuniversity.in",
+    "action": "CANCEL",
+    "entity_type": "ROOM_BOOKING",
+    "entity_id": "B201|Tuesday|10-11AM",
+    "details": {
+      "reason": "Not required more",
+      "cancelled_at": "2025-08-24T22:17:53.255987"
+    }
+  },
+  {
+    "id": "115ed417-8c59-400a-a704-56efc0d46020",
+    "timestamp": "2025-08-24T22:19:26.762941",
+    "actor": "daksh.kumar@bcah.christuniversity.in",
+    "action": "DELETE",
+    "entity_type": "ALBUM",
+    "entity_id": "f9aad043-cfc7-46ae-9bd0-a3be6ce5f5c4",
+    "details": {
+      "album_media_count": 0
+    }
+  },
+  {
+    "id": "d3c2b096-8c9e-48d8-ad12-051cace7b4a0",
+    "timestamp": "2025-08-24T22:19:29.589130",
+    "actor": "daksh.kumar@bcah.christuniversity.in",
+    "action": "DELETE",
+    "entity_type": "ALBUM",
+    "entity_id": "cc9d8066-165f-4daa-bfaa-b82609aa0d4d",
+    "details": {
+      "album_media_count": 0
+    }
+  },
+  {
+    "id": "77c51ca9-f3bd-41e5-84d6-76e20fc88857",
+    "timestamp": "2025-08-24T22:19:31.846880",
+    "actor": "daksh.kumar@bcah.christuniversity.in",
+    "action": "DELETE",
+    "entity_type": "ALBUM",
+    "entity_id": "3ebca19c-1bf0-42d2-979c-1ed168a01c97",
+    "details": {
+      "album_media_count": 0
+    }
+  },
+  {
+    "id": "733e3690-6feb-47e2-933a-eab71f580003",
+    "timestamp": "2025-08-24T22:20:54.707541",
+    "actor": "daksh.kumar@bcah.christuniversity.in",
+    "action": "UPLOAD",
+    "entity_type": "MEDIA",
+    "entity_id": "275f45f6-109a-4f7c-99b3-98e880c4b39a",
+    "details": {
+      "filename": "Daksh Kumar Shah.png",
+      "album_id": "9c21aae8-bff1-4444-9169-0f1bd53fcb3e",
+      "type": "photo",
+      "approval_status": "approved"
+    }
+  },
+  {
+    "id": "00c4a57c-6e72-4f98-8b57-602cb71e8660",
+    "timestamp": "2025-08-24T22:23:29.739896",
+    "actor": "daksh.kumar@bcah.christuniversity.in",
+    "action": "UPLOAD",
+    "entity_type": "MEDIA",
+    "entity_id": "5779a6ac-5e67-4848-9277-c2747b4d5a40",
+    "details": {
+      "filename": "spiderman-peter-parker.1920x1080.mp4",
+      "album_id": "9c21aae8-bff1-4444-9169-0f1bd53fcb3e",
+      "type": "video",
+      "approval_status": "approved"
+    }
   }
 ]

@@ -1,30 +1,6 @@
 {
   "albums": [
     {
-      "id": "f9aad043-cfc7-46ae-9bd0-a3be6ce5f5c4",
-      "name": "Daksh",
-      "description": "Daksh",
-      "creator": "syeda.shariya@bcah.christuniversity.in",
-      "created_at": "2025-08-23T21:27:14.805641",
-      "media_count": 0
-    },
-    {
-      "id": "cc9d8066-165f-4daa-bfaa-b82609aa0d4d",
-      "name": "Daksh",
-      "description": "Daksh",
-      "creator": "syeda.shariya@bcah.christuniversity.in",
-      "created_at": "2025-08-23T21:27:21.203592",
-      "media_count": 0
-    },
-    {
-      "id": "3ebca19c-1bf0-42d2-979c-1ed168a01c97",
-      "name": "Daksh",
-      "description": "Daksh",
-      "creator": "syeda.shariya@bcah.christuniversity.in",
-      "created_at": "2025-08-23T21:27:23.713287",
-      "media_count": 0
-    },
-    {
       "id": "9c21aae8-bff1-4444-9169-0f1bd53fcb3e",
       "name": "Daksh",
       "description": "Daksh",
@@ -33,7 +9,79 @@
       "media_count": 0
     }
   ],
-  "media": [],
-  "tags": [],
+  "media": [
+    {
+      "id": "275f45f6-109a-4f7c-99b3-98e880c4b39a",
+      "filename": "Daksh Kumar Shah.png",
+      "type": "photo",
+      "album_id": "9c21aae8-bff1-4444-9169-0f1bd53fcb3e",
+      "tags": [
+        "example",
+        "example",
+        "computer science",
+        "academic"
+      ],
+      "metadata": {
+        "event_name": "Example",
+        "event_date": "2025-08-24",
+        "organizers": "Dr. XYZ",
+        "event_location": "Christ",
+        "department": "Computer Science",
+        "event_type": "Academic",
+        "file_size_mb": 4.74,
+        "original_filename": "Daksh Kumar Shah.png",
+        "dimensions": "1916 x 2866",
+        "format": "PNG",
+        "mode": "RGB",
+        "size_kb": 4856.59,
+        "aspect_ratio": 0.67,
+        "thumbnail": "Daksh Kumar Shah_thumb.png"
+      },
+      "uploader": "daksh.kumar@bcah.christuniversity.in",
+      "uploaded_at": "2025-08-24T22:20:54.705023",
+      "approval_status": "approved",
+      "approved_by": null,
+      "approved_at": null,
+      "views": 0
+    },
+    {
+      "id": "5779a6ac-5e67-4848-9277-c2747b4d5a40",
+      "filename": "spiderman-peter-parker.1920x1080.mp4",
+      "type": "video",
+      "album_id": "9c21aae8-bff1-4444-9169-0f1bd53fcb3e",
+      "tags": [
+        "example",
+        "example",
+        "computer science",
+        "academic"
+      ],
+      "metadata": {
+        "event_name": "Example",
+        "event_date": "2025-08-24",
+        "organizers": "Dr. XYZ",
+        "event_location": "Christ",
+        "department": "Computer Science",
+        "event_type": "Academic",
+        "file_size_mb": 7.44,
+        "original_filename": "spiderman-peter-parker.1920x1080.mp4",
+        "duration": "Unknown",
+        "size_mb": 7.44,
+        "format": ".mp4",
+        "resolution": "Unknown",
+        "codec": "Unknown"
+      },
+      "uploader": "daksh.kumar@bcah.christuniversity.in",
+      "uploaded_at": "2025-08-24T22:23:29.736349",
+      "approval_status": "approved",
+      "approved_by": null,
+      "approved_at": null,
+      "views": 0
+    }
+  ],
+  "tags": [
+    "example",
+    "computer science",
+    "academic"
+  ],
   "shares": []
 }

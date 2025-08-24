@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "user_email": "daksh.kumar@bcah.christuniversity.in",
+    "room": "B201",
+    "day": "Tuesday",
+    "slot": "10-11AM",
+    "action": "BOOKED",
+    "timestamp": "2025-08-24T22:16:51.658507"
+  },
+  {
+    "user_email": "daksh.kumar@bcah.christuniversity.in",
+    "room": "B201",
+    "day": "Tuesday",
+    "slot": "10-11AM",
+    "action": "CANCELLED",
+    "timestamp": "2025-08-24T22:17:53.268528"
+  }
+]
