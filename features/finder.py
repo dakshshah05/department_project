@@ -128,7 +128,7 @@ def main(user):
             
             # Display results
             for i, result in enumerate(free_rooms, 1):
-                with st.expander(f"🏠 {result['room']} - {len(result['available_slots'])} slots available", expanded=i <= 3):
+                with st.expander(f"🚪 {result['room']} - {len(result['available_slots'])} slots available", expanded=i <= 3):
                     col1, col2 = st.columns([2, 1])
                     
                     with col1:
@@ -181,7 +181,7 @@ def main(user):
             if partial_rooms:
                 st.write("**🔶 Partially Available Rooms:**")
                 for room in partial_rooms:
-                    with st.expander(f"🏠 {room['room']} - {len(room['available'])}/{len(selected_slots)} slots free"):
+                    with st.expander(f"🚪 {room['room']} - {len(room['available'])}/{len(selected_slots)} slots free"):
                         col1, col2 = st.columns(2)
                         with col1:
                             st.write("**✅ Available:**")

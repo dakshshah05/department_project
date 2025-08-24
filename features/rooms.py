@@ -301,7 +301,7 @@ def send_waitlist_notification(waitlist_entry):
 
 def main(user: dict):
     """Enhanced room booking interface"""
-    st.header("🏠 Enhanced Room Booking System")
+    st.header("🚪 Room Booking System")
     st.markdown("---")
 
     # Load room data
@@ -388,7 +388,7 @@ def main(user: dict):
             st.info(f"**⏩ {days_ahead} day{'s' if days_ahead > 1 else ''} ahead**")
 
     # Display timetable
-    st.subheader(f"🏠 {room} — {selected_date.strftime('%A, %B %d')}")
+    st.subheader(f"🚪 {room} — {selected_date.strftime('%A, %B %d')}")
     
     timeslots = data[room][day_name]
     free_slots = [t for t, booked in timeslots.items() if not booked]
@@ -452,7 +452,7 @@ def main(user: dict):
     # Teacher booking functionality
     if user["role"].lower() == "teacher":
         st.markdown("---")
-        st.subheader("🔒 Enhanced Booking Options (Teacher Only)")
+        st.subheader("🔒 Booking Options (Teacher Only)")
         
         st.info(f"🎯 **Booking for:** {selected_date.strftime('%A, %B %d, %Y')}")
         
@@ -585,7 +585,7 @@ def main(user: dict):
         st.info("👁️ **Student Access:** View-only mode")
 
     # Enhanced booking history with search - FIXED: Pass data parameter
-    with st.expander(f"📊 **Enhanced Booking History:** {room} - {day_name}", expanded=False):
+    with st.expander(f"📊 **Booking History:** {room} - {day_name}", expanded=False):
         show_enhanced_booking_history(room, day_name, user, data)  # ✅ Fixed: Added data parameter
 
     # Quick date navigation
@@ -653,7 +653,7 @@ def book_slot_logic(data, room, day_name, slot_to_book, user, booking_title, boo
             )
         
         st.success(f"✅ **Booking Confirmed!**")
-        st.success(f"🏠 **Room:** {room}")
+        st.success(f"🚪 **Room:** {room}")
         st.success(f"📅 **Date:** {day_name}")
         st.success(f"⏰ **Time:** {slot_to_book}")
         st.success(f"📝 **Title:** {booking_title or 'Untitled Booking'}")

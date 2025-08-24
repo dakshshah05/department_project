@@ -92,7 +92,7 @@ def _get_album_media(album_id, include_pending=False):
 
 def main(user: dict):
     """Enhanced media management interface with fixed functionality"""
-    st.header("📸 Enhanced Media Center")
+    st.header("📸 Media Center")
     st.markdown("---")
 
     # Initialize directories

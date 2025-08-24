@@ -77,7 +77,7 @@ def show_app():
     
     # Simplified navigation menu (NO ANALYTICS)
     base_options = [
-        "🏠 Room Booking", 
+        "🚪 Room Booking", 
         "👨‍🏫 Faculty Availability", 
         "🔍 Free Room Finder",
         "📸 Media Center",
@@ -91,7 +91,7 @@ def show_app():
     choice = st.sidebar.radio("**📋 Select Feature:**", base_options, index=0)
 
     # Route to selected feature (NO ANALYTICS ROUTING)
-    if choice == "🏠 Room Booking":
+    if choice == "🚪 Room Booking":
         rooms.main(st.session_state.user)
     elif choice == "👨‍🏫 Faculty Availability":
         faculty.main()

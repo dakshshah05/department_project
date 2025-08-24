@@ -25,7 +25,7 @@ def main(user):
     
     # Tabs for different analytics
     tab1, tab2, tab3, tab4 = st.tabs([
-        "🏠 Room Utilization", 
+        "🚪 Room Utilization", 
         "👨‍🏫 Faculty Workload", 
         "📈 Booking Statistics", 
         "📊 Reports"
@@ -45,7 +45,7 @@ def main(user):
 
 def show_room_utilization(rooms_data, audit_data):
     """Display room utilization charts"""
-    st.subheader("🏠 Room Utilization Analysis")
+    st.subheader("🚪 Room Utilization Analysis")
     
     # Calculate utilization data
     utilization_data = []

@@ -39,7 +39,7 @@ def show_simple_overview():
         col1, col2, col3, col4 = st.columns(4)
         
         with col1:
-            st.metric("🏠 Total Rooms", len(rooms_data))
+            st.metric("🚪 Total Rooms", len(rooms_data))
         with col2:
             st.metric("👨‍🏫 Faculty Members", len(faculty_data))
         with col3:
@@ -48,7 +48,7 @@ def show_simple_overview():
             st.metric("📋 Total Events", len(audit_data))
         
         # Simple room status
-        st.markdown("#### 🏠 Room Status Summary")
+        st.markdown("#### 🚪 Room Status Summary")
         for room, schedule in rooms_data.items():
             total_slots = 0
             booked_slots = 0
