@@ -9,16 +9,10 @@ def login_view():
     Displays login form with default Streamlit styling
     """
     # University header with logo
-    col1, col2, col3 = st.columns([1, 2, 1])
+    col2, col3 = st.columns([2, 1])
     with col2:
         # Add university name and logo in login page
-        try:
-            st.image("christ_logo.png", width=200)
-        except:
-            st.markdown("# 🏛️ Christ University")
-        
-        st.markdown("# Christ University")
-        st.markdown("## Department Portal")
+        st.markdown("# 🏛️ Department Portal")
     
     st.markdown("---")
     

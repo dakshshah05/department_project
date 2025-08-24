@@ -10,7 +10,7 @@ st.set_page_config(page_title="Christ University - Department Portal", layout="c
 def add_christ_logo_and_styling():
     """Add Christ University logo with minimal styling"""
     try:
-        logo_path = Path("christ_logo.png")
+        logo_path = Path("university_logo.png")
         if logo_path.exists():
             logo_data = base64.b64encode(logo_path.read_bytes()).decode()
             logo_html = f'<img class="fixed-logo" src="data:image/png;base64,{logo_data}" alt="Christ University Logo">'
@@ -24,28 +24,15 @@ def add_christ_logo_and_styling():
         /* Logo Styling */
         .fixed-logo {{
             position: fixed;
-            top: 15px;
-            left: 15px;
-            height: 100px;
+            top: auto;
+            right: 15px;
+            height: 60px;
             width: auto;
             z-index: 9999;
-            border-radius: 10px;
+            border-radius: 5px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }}
-        
-        .fixed-logo-text {{
-            position: fixed;
-            top: 15px;
-            left: 15px;
-            font-size: 20px;
-            font-weight: bold;
-            color: #1f77b4;
-            z-index: 9999;
-            background: white;
-            padding: 10px 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }}
+    
         
         /* Layout Adjustments */
         .main .block-container {{
