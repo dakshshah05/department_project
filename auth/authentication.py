@@ -1,3 +1,4 @@
+# Handles user login and logout with default Streamlit theme
 import streamlit as st
 from utils.io import read_json
 
@@ -5,22 +6,46 @@ USERS_FILE = "data/users.json"
 
 def login_view():
     """
-    Displays login form and handles authentication
-    TO ADD NEW USERS: Edit data/users.json file
+    Displays login form with default Streamlit styling
     """
-    st.title("🏛️ Department Portal Login")
+    # University header with logo
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        # Add university name and logo in login page
+        try:
+            st.image("christ_logo.png", width=200)
+        except:
+            st.markdown("# 🏛️ Christ University")
+        
+        st.markdown("# Christ University")
+        st.markdown("## Department Portal")
+    
     st.markdown("---")
-    st.info("**Demo Credentials:**\n- daksh.kumar@bcah.christuniversity.in / daksh123 (teacher)\n- syeda.shariya@bcah.christuniversity.in / shariya123 (teacher) \n- harsh.behal@bcah.christuniversity.in / harsh123(student) \n- deevyanshu.sahu@bcah.christuniversity.in / deevyanshu123(student) \n- bhavishya.bodwani@bcah.christuniversity.in / bhavishya123(student)")
+    
+    # Demo credentials info box
+    st.info("""
+    **📋 Demo Credentials:**
+    
+    **Teachers:**
+    • daksh.kumar@bcah.christuniversity.in / daksh123
+    • syeda.shariya@bcah.christuniversity.in / shariya123
+    
+    **Students:**
+    • harsh.behal@bcah.christuniversity.in / harsh123
+    • deevyanshu.sahu@bcah.christuniversity.in / deevyanshu123  
+    • bhavishya.bodwani@bcah.christuniversity.in / bhavishya123
+    """)
 
     with st.form("login_form"):
         email = st.text_input(
-            "📧 Gmail ID", 
-            placeholder="Enter Your Mail ID",
-            help="Enter your registered Gmail ID"
+            "📧 University Email", 
+            placeholder="name@bcah.christuniversity.in",
+            help="Enter your Christ University email ID"
         )
         password = st.text_input(
             "🔐 Password", 
             type="password",
+            placeholder="Enter your password",
             help="Enter your password"
         )
         role = st.radio(
@@ -36,9 +61,8 @@ def login_view():
             users = read_json(USERS_FILE)
         except FileNotFoundError:
             st.error("❌ Users file not found. Please ensure data/users.json exists.")
-            st.info("**File should contain:** List of user objects with email, password, and role")
             return
-        
+
         for u in users:
             if (
                 u.get("email") == email
@@ -49,6 +73,7 @@ def login_view():
                 st.success("✅ Login successful! Loading application...")
                 st.rerun()
                 return
+
         st.error("❌ Invalid credentials. Please check your email, password, and role.")
 
 def do_logout():

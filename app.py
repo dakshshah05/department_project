@@ -1,48 +1,43 @@
-# Main entry point with embedded CSS for university logo
+# Main entry point with default Streamlit theme and Christ University logo
 import streamlit as st
 import base64
 from pathlib import Path
 from auth.authentication import login_view, do_logout
-from features import rooms, faculty, media, finder
+from features import rooms, faculty, media, finder, analytics, admin, notifications
 
-st.set_page_config(page_title="Department Portal", layout="centered")
+st.set_page_config(page_title="Christ University - Department Portal", layout="centered")
 
-def add_logo_and_styling():
-    """Add university logo and custom styling directly in app.py"""
-    
-    # Read logo file and convert to base64
+def add_christ_logo_and_styling():
+    """Add Christ University logo with minimal styling"""
     try:
-        logo_path = Path("university_logo.png")
+        logo_path = Path("christ_logo.png")
         if logo_path.exists():
             logo_data = base64.b64encode(logo_path.read_bytes()).decode()
-            logo_html = f'<img class="fixed-logo" src="data:image/png;base64,{logo_data}" alt="University Logo">'
+            logo_html = f'<img class="fixed-logo" src="data:image/png;base64,{logo_data}" alt="Christ University Logo">'
         else:
-            # Fallback text logo if image not found
-            logo_html = '<div class="fixed-logo-text">🏛️ Your University</div>'
-    except Exception as e:
-        logo_html = '<div class="fixed-logo-text">🏛️ Your University</div>'
+            logo_html = '<div class="fixed-logo-text">Christ University</div>'
+    except:
+        logo_html = '<div class="fixed-logo-text">Christ University</div>'
     
-    # CSS + Logo HTML embedded in the same file
     st.markdown(f"""
     <style>
-        /* University logo styling */
+        /* Logo Styling */
         .fixed-logo {{
             position: fixed;
-            top: auto;
-            right: 15px;
-            height: 60px;  /* Adjust this for bigger/smaller logo */
+            top: 15px;
+            left: 15px;
+            height: 100px;
             width: auto;
             z-index: 9999;
-            border-radius: 5px;  /* Optional: rounded corners */
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);  /* Optional: subtle shadow */
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }}
         
-        /* Fallback text logo styling */
         .fixed-logo-text {{
             position: fixed;
             top: 15px;
             left: 15px;
-            font-size: 28px;
+            font-size: 20px;
             font-weight: bold;
             color: #1f77b4;
             z-index: 9999;
@@ -52,37 +47,39 @@ def add_logo_and_styling():
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }}
         
-        /* Adjust main content to avoid overlap with logo */
+        /* Layout Adjustments */
         .main .block-container {{
-            padding-top: 150px;  /* Increase if logo is bigger */
+            padding-top: 130px;
         }}
         
-        /* Adjust sidebar to avoid overlap with logo */
         [data-testid="stSidebar"] {{
-            margin-top: 140px;  /* Increase if logo is bigger */
+            margin-top: 120px;
         }}
         
-        /* Optional: Hide Streamlit's default header space */
-        .css-18e3th9 {{
-            padding-top: 0rem;
+        /* Clean styling for buttons */
+        .stButton > button {{
+            background-color: #1f77b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
         }}
         
-        /* Optional: Custom styling for the sidebar */
-        [data-testid="stSidebar"] > div:first-child {{
-            background-color: #f8f9fa;
+        .stButton > button:hover {{
+            background-color: #1565c0;
         }}
     </style>
     {logo_html}
     """, unsafe_allow_html=True)
 
-# Add logo and styling at the very beginning
-add_logo_and_styling()
+# Add logo and styling
+add_christ_logo_and_styling()
 
 # Initialize session state
 if "user" not in st.session_state:
     st.session_state.user = None
 
 def show_app():
+    """Main application interface without theme toggle"""
     st.sidebar.write(f"**Logged in as:** {st.session_state.user['email']}")
     st.sidebar.write(f"**Role:** {st.session_state.user['role']}")
     
@@ -91,17 +88,24 @@ def show_app():
         st.stop()
 
     st.sidebar.markdown("---")
-    choice = st.sidebar.radio(
-        "**📋 Select Feature:**",
-        [
-            "🏠 Room Booking", 
-            "👨‍🏫 Faculty Availability", 
-            "🔍 Free Room Finder",
-            "📸 Media Center"
-        ],
-        index=0
-    )
+    
+    # Navigation menu
+    base_options = [
+        "🏠 Room Booking", 
+        "👨‍🏫 Faculty Availability", 
+        "🔍 Free Room Finder",
+        "📸 Media Center",
+        "📊 Analytics Dashboard",
+        "🔔 Notifications"
+    ]
+    
+    # Add admin options for teachers
+    if st.session_state.user['role'].lower() == 'teacher':
+        base_options.append("⚙️ Admin Panel")
+    
+    choice = st.sidebar.radio("**📋 Select Feature:**", base_options, index=0)
 
+    # Route to selected feature
     if choice == "🏠 Room Booking":
         rooms.main(st.session_state.user)
     elif choice == "👨‍🏫 Faculty Availability":
@@ -110,6 +114,12 @@ def show_app():
         finder.main(st.session_state.user)
     elif choice == "📸 Media Center":
         media.main(st.session_state.user)
+    elif choice == "📊 Analytics Dashboard":
+        analytics.main(st.session_state.user)
+    elif choice == "🔔 Notifications":
+        notifications.main(st.session_state.user)
+    elif choice == "⚙️ Admin Panel":
+        admin.main(st.session_state.user)
 
 def main():
     if st.session_state.user is None:
